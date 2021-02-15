@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:divider="?attr/dividerHorizontal">
+    <PreferenceCategory
+        android:title="General">
+        <Preference
+            android:key="@string/pref_key_terminal_info"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:summary="Displays Terminal and Merchant info"
+            android:title="Terminal Info" />
+        <Preference
+            android:key="@string/pref_key_security_keys"
+            android:icon="@drawable/ic_tes_key_black_24dp"
+            android:summary="Downloads new transaction keys"
+            android:title="Update TES Keys" />
+
+        <Preference
+            android:key="@string/pref_resync"
+            android:icon="@drawable/ic_refresh_black_24dp"
+            android:summary="Updates Payment Items"
+            android:title="@string/resyncbillers" />
+
+        <Preference
+            android:key="@string/pref_key_change_user_password"
+            android:icon="@drawable/ic_person_pin_black_24dp"
+            android:summary="Setting new user password"
+            android:title="Change User Password" />
+        <Preference
+            android:key="@string/pref_key_app_version"
+            android:icon="@drawable/ic_app_device_information_black_24dp"
+            android:title="App Version" />
+        <Preference
+            android:key="@string/pref_key_logout"
+            android:icon="@drawable/ic_logout_black_24dp"
+            android:title="Logout" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

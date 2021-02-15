@@ -1,0 +1,78 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:layout_marginBottom="5dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="sans-serif"
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:id="@+id/stockPNameTv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tv"/>
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/stockPBrandTv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dansat"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:id="@+id/stockPCodeTv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="24006"/>
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/stockPSizeTv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="24' DTE 240"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/stockLimitTv"
+            android:gravity="center|right"
+            android:text="100pcs"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,394 @@
+<resources>
+    <string name="app_name">Retail Manager</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+ haj,sjqZS˙œ∑,fdj\yqwht d\zsqw∂ˆˆ¥´´©
+ haj,sjqZS˙œ∑,fdj\yqwht d\zsqw∂ˆˆ¥´´©
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_product">Select Product</string>
+    <string name="brand_style">Brand/Style</string>
+    <string name="unit">unit*</string>
+    <string name="price">price*</string>
+    <string name="app_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_add_id">ca-app-pub-2122789248840144/4292660234</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="text_bluetooth_off">Bluetooth is Off</string>
+    <string name="text_bluetooth_on">Bluetooth is On</string>
+
+    <string name="text_connect">Connect</string>
+    <string name="text_disconnect">Diconnect</string>
+
+    <string name="text_enable_bluetooth">Enable Bluetooth</string>
+    <string name="text_disable_bluetooth">Disable Bluetooth</string>
+
+    <string name="text_scan_devices">Scan Devices</string>
+    <string name="text_stop_scan">Scan Devices</string>
+
+    <string name="text_list_paired_devices">Paired Devices</string>
+    <string name="text_list_devices">List of Devices</string>
+
+    <string name="text_pair">Pair</string>
+
+
+    <string name="text_print_demo">Print Demo</string>
+    <string name="text_print_barcode">Print Barcode</string>
+    <string name="text_print_image">Print Image</string>
+    <string name="text_print_receipt">Print Receipt</string>
+    <string name="text_print_text">Print Text</string>
+    <string name="Stock">Stock</string>
+    <string name="sells">Sells</string>
+    <string name="customers">Customers</string>
+
+
+
+    <!-- Shrine backdrop menu labels -->
+    <string name="shr_featured_label">Featured</string>
+    <string name="shr_apartment_label">Apartment</string>
+    <string name="shr_accessories_label">Accessories</string>
+    <string name="shr_shoes_label">Shoes</string>
+    <string name="shr_tops_label">Tops</string>
+    <string name="shr_bottoms_label">Bottoms</string>
+    <string name="shr_dresses_label">Dresses</string>
+    <string name="shr_account_label">My Account</string>
+
+
+    <string name="activity_label">Shipping Address</string>
+
+    <string name="category_name">Category Name</string>
+    <string name="category_desc">Description(Optional)</string>
+    <string name="prd_name">Product Name</string>
+    <string name="prd_code">Product Code</string>
+    <string name="prd_price">Product Price</string>
+    <string name="prd_sell_price">Sell Price</string>
+    <string name="prd_unit">Product Unit</string>
+    <string name="prd_brand">Product Brand</string>
+    <string name="prd_size">Product Size</string>
+    <string name="prd_available_stock">Available Stock</string>
+    <string name="prd_category">Product Category</string>
+
+    <string name="label_address">Address</string>
+    <string name="label_city">City</string>
+    <string name="label_state">State</string>
+    <string name="label_zip">ZIP</string>
+    <string name="label_save">Save</string>
+
+    <string name="error_string">Field must not be empty.</string>
+    <string name="action_add_favourite">Add Favourite</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="action_add_stock">Add Stock</string>
+    <string name="action_disable_item">Disable Item</string>
+    <string name="action_remove_stock">Remove Stock</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="pref_key_custom_categories">custom_categories</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Twezimbe"</string>
+   <string name="retail_manager">"Retail Manager"</string>
+    <string name="app_name_twezimbe">"Twezimbe POS"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password required</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="close">Close</string>
+    <string name="base_url">https://8b08323b471a.ngrok.io</string>
+    <string name="username">Username</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="action_edit_category">Edit Category</string>
+    <string name="prd_supplier">Supplier</string>
+    <string name="cust_name">Customer Name</string>
+    <string name="cust_type">Customer Type</string>
+    <string name="customerGender">Gender</string>
+    <string name="customerPhone">Customer Phone</string>
+    <string name="customerEmail">Customer Email</string>
+    <string name="customerAddress">Customer Address</string>
+    <string name="customerDueAmount">Customer Due Amount</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_company_name">Supplier Company Name</string>
+    <string name="supplier_contact_person">Supplier Contact Person</string>
+    <string name="supplier_phone_number">Phone Number</string>
+    <string name="supplier_address">Address</string>
+    <string name="supplier_bank_name">Supplier Bank Name</string>
+    <string name="supplier_bank_account">Bank Account</string>
+    <string name="supplier_email">Email</string>
+    <string name="supplier_website">Website</string>
+    <string name="supplier_description">Description</string>
+    <string name="empty_view_title_text">Nothing in stock&#8230;</string>
+    <string name="empty_view_subtitle_text">Use \"Add Items\" Tab to add products</string>
+    <string name="empty_category_view_title_text">No Categories Found</string>
+    <string name="empty_category_view_subtitle_text">Use \"Add Items\" Tab to add categories</string>
+    <string name="spinner_title">Pay With</string>
+    <string name="search_purchase">Search Purchase</string>
+    <string name="no_purchases_found">No Purchases Found</string>
+    <string name="prd">Product</string>
+    <string name="purchase_date">Purchase Date</string>
+    <string name="unit_price">Unit Price</string>
+    <string name="purchase_qty">Quantity</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="purchase_payment">Pay Amount</string>
+    <string name="purchase_time">Time</string>
+    <string name="prdVariation">Product Variation</string>
+    <string name="variation_name">Variation Name</string>
+    <string name="prd_var">Product Variation</string>
+
+
+
+
+
+    <!-- Quick Teller -->
+    <string name="title_activity_serial_port">SerialPortActivity</string>
+    <string name="title_COM_USB_UART">USB UART</string>
+    <string name="title_COM_BASE_RS232">BASE RS232</string>
+    <string name="title_COM_OTG_USB2Serial">OTG USB2Serial</string>
+    <string name="description_COM_USB_UART">Normal USB cable, UART port on PC side</string>
+    <string name="description_COM_BASE_RS232">typical RJ45 serial cable connect to the RS232 port of the Base</string>
+    <string name="description_COM_OTG_USB2Serial">OTG cable + USB2Serial</string>
+    <string name="title_activity_printer_ex">PrinterExActivity</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="check_balance">BALANCE</string>
+    <string name="set_keys">SET KEYS</string>
+    <string name="ministatement">MINISTATEMENT</string>
+    <string name="withdraw">WITHDRAW</string>
+    <string name="mybalance">Refresh Balance</string>
+    <string name="resyncbillers">Update Billers</string>
+    <string name="updateteskey">Update TES Keys</string>
+    <string name="logout">Logout</string>
+    <string name="fees_taxes">Fees &amp; Taxes</string>
+
+    <string name="passwordForgotten">
+        Please contact your bank branch to initiate a reset immediately or contact 0312300200 / 0414351000 for assistance
+    </string>
+
+    <!--text labels-->
+
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_passsword">Enter Password</string>
+    <string name="login">Login Now</string>
+    <string name="tran_summary">CONFIRM TRANSACTION</string>
+    <string name="enter_customer_details">Enter customer details</string>
+
+
+    <string name="account_number">Account Number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="narration">Narration</string>
+    <string name="schoolcode">School Code</string>
+    <string name="student_number">Student Number</string>
+    <string name="amount">Amount (UGX)</string>
+    <!--button labels-->
+    <string name="validate_customer_details">Validate customer</string>
+    <string name="proceed_to_pay">PROCEED</string>
+
+
+    <string name="AIDparaload">AID parameter download</string>
+    <string name="Pay_success">Successful</string>
+    <string name="aidparastorefail">AID parameter store failure:</string>
+    <string name="aidstorefail">AID store failure:</string>
+    <string name="amount1">Amount</string>
+    <string name="back_home">Back To Homepage</string>
+    <string name="bank_card">Use Card</string>
+    <string name="bank_cardless">Go Cardless</string>
+    <string name="bankoffdatafail">Bank off,get data failure</string>
+    <string name="busy">Printer busy</string>
+    <string name="cancel">Cancel</string>
+    <string name="cardno">Card No.：</string>
+    <string name="cardno1">Card No.</string>
+    <string name="cardnoincorr">Card No. incorrect，double check!</string>
+    <string name="checknetwork">Check network is available</string>
+    <string name="chooseapp">Choose APP：</string>
+    <string name="clear">Clear</string>
+    <string name="comm_para">Comm parameters</string>
+    <string name="commparastoresucc">Stored success</string>
+    <string name="commtimeout">Comm Timeout</string>
+    <string name="communication">Communication</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirmcard">Confirm card No.</string>
+    <string name="confirmprint2nd">Confirm to print 2nd copy</string>
+    <string name="confirmprint3rd">Confirm to print 3rd copy</string>
+    <string name="connhostfail">Connect host failure</string>
+    <string name="consumcard">Card No.</string>
+    <string name="consumsucc">Transaction successful</string>
+    <string name="conv8583packwrong">8583package wrong</string>
+    <string name="correct">Correct</string>
+    <string name="datalennoteno">Data length not enough</string>
+    <string name="dataverifail">Data verify failure</string>
+    <string name="date">Date</string>
+    <string name="downkey">Download key</string>
+    <string name="downloadicparasucc">Download AID parameter success</string>
+    <string name="downrfparasucc">Download RF parameter success</string>
+    <string name="foucustheqr">Focus to the QR code</string>
+    <string name="host_address">Host IP Address</string>
+    <string name="host_port">Host Port</string>
+    <string name="hostreterrorcode">Error code host returned:</string>
+    <string name="hostretseqnotmatch">Sequence id host returned is not match!</string>
+    <string name="hostretternotmatch">Terminal id host returned is not match!</string>
+    <string name="hwerror">HW error</string>
+    <string name="input_amount">Input amount (USD)</string>
+    <string name="inputcorrecttime">Input correct timeout num</string>
+    <string name="inputcorrecttpdu">Input correct TPDU</string>
+    <string name="inputofflinepass">Input offline password</string>
+    <string name="inputonlinepass">Input PIN</string>
+    <string name="inputopno">Input operator no.</string>
+    <string name="inputpass">Input password here</string>
+    <string name="insert">Insert card</string>
+    <string name="lowvoltage">Low voltage protection</string>
+    <string name="mackeyveriwrong">Work key(MAC key)verify wrong</string>
+    <string name="magslotencrkeyveriwrong">Mag slot encrypt key verify wrong</string>
+    <string name="mainkeyveriwrong">Main key verify wrong</string>
+    <string name="merchantNmae">Retail Manager</string>
+    <string name="merchantname">Merchant name</string>
+    <string name="merchantno">Merchant No.</string>
+    <string name="merchantset">Merchant settings</string>
+    <string name="motorerror">Motor error</string>
+    <string name="nocard">You can also select no card consumption</string>
+    <string name="nolastrecord">No last record</string>
+    <string name="notkeydowncommand">Not key download command</string>
+    <string name="notssldowncommand">Not SSL download command</string>
+    <string name="offline">Offline</string>
+    <string name="online">Online</string>
+    <string name="onlinepass">Input PIN</string>
+    <string name="openserialfail">Open serial port failure</string>
+    <string name="operator">Operator</string>
+    <string name="outofpaper">Out of paper</string>
+    <string name="overheat">Overheat</string>
+    <string name="packconvertwrong">Data package convert wrong</string>
+    <string name="packdata">Pack the data</string>
+    <string name="packveriwrongmac">Data package verify wrong，MAC verify wrong!</string>
+    <string name="packveriwrongmsgid">Data package verify wrong，MSGID not match!</string>
+    <string name="packveriwrongretrade">Data package verify wrong，re-trade!</string>
+    <string name="paper_receipt">If you want a paper receipt,back to the last page</string>
+    <string name="password">Password</string>
+    <string name="phonenum">Input Phone Num</string>
+    <string name="pinkeyveriwrong">Work key(PIN key)verify wrong</string>
+    <string name="pkdownload">CAPK download</string>
+    <string name="pkdownloadfail">CAPK download failure</string>
+    <string name="pkdownloadsucc">Download CAPK success</string>
+    <string name="pkstorefail">CAPK store failure:</string>
+    <string name="prikeyill">Key null illegal</string>
+    <string name="prikeylenwrong">Key length wrong</string>
+    <string name="print">Print</string>
+    <string name="print_rec">Print receipt</string>
+    <string name="printerrorche">Print error, double check</string>
+    <string name="printing">Printing Receipt…</string>
+    <string name="printsucc">Print succeed</string>
+    <string name="printsucctakereceipt">Print success，take the receipt！</string>
+    <string name="prn_amount">Amount Paid:</string>
+    <string name="prn_authNo">AUTH NO.                  </string>
+    <string name="prn_bankCopy">BANK COPY</string>
+    <string name="prn_barcode">123456789012345</string>
+    <string name="prn_batchNo">BATCH NO.              </string>
+    <string name="prn_cardNo">CARD NO.:               </string>
+    <string name="prn_cardNo_CSN">CARD NO.:           CSN:</string>
+    <string name="prn_cardholderCopy">CUSTOMER COPY</string>
+    <string name="prn_comment1">I ACKNOWLEDGE SATISFACTORY RECEIPT OF</string>
+    <string name="prn_comment2">RELATIVE </string>
+    <string name="prn_comment3" />
+    <string name="prn_currency"> UGX</string>
+    <string name="prn_dateTime">DATE/TIME:</string>
+    <string name="prn_expDate">EXP.DATE:               </string>
+    <string name="prn_issue">ISSUE:</string>
+    <string name="prn_merchantCopy">MERCHANT COPY</string>
+    <string name="prn_merchantNmae">MERCHANT NAME: </string>
+    <string name="prn_merchantNo">MERCHANT ID:           </string>
+    <string name="prn_operatorName">OPERATOR NAME:                 </string>
+    <string name="prn_qrcode1">https://www.****.co.ug</string>
+    <string name="prn_qrcode2">https://www.google.com/search?q=retail</string>
+    <string name="prn_refNo">REF NO:</string>
+    <string name="prn_item_nanme">Payment Item:</string>
+    <string name="prn_item_customerId">customer Id:</string>
+    <string name="prn_item_customerName">customer Name:</string>
+    <string name="prn_item_customerNumber">customer No.:</string>
+    <string name="prn_item_paymentSurcharge">Surcharge:</string>
+    <string name="prn_item_exise">EXCISE:</string>
+    <string name="prn_item_token">TOKEN: </string>
+    <string name="prn_reference">Customer Signature</string>
+    <string name="prn_reprint">--REPRINT--</string>
+    <string name="prn_signature">CARDHOLDER SIGNATURE</string>
+    <string name="prn_tc">TC:</string>
+    <string name="prn_terminalNo">TERMINAL ID.:           </string>
+    <string name="prn_title">Verifone DEMO Receipt</string>
+    <string name="prn_trackNo">STAN:</string>
+    <string name="prn_transType">TRANS TYPE:</string>
+    <string name="processwait">Processing，waiting</string>
+    <string name="qrconsum">QR code</string>
+    <string name="qrpurchase">QR purchase</string>
+    <string name="rapid_cashier">Cashier</string>
+    <string name="readcard">Read card No.</string>
+    <string name="readicfail">Read ic card failure</string>
+    <string name="readicwrongswipemag">Read ic card error，swipe mag card!</string>
+    <string name="readtimeout">Read card timeout</string>
+    <string name="readywait">Ready, waiting。。。</string>
+    <string name="recdatafail">Receive data failure</string>
+    <string name="recedatafail">Received data null</string>
+    <string name="receiptprinting">Receipt printing...</string>
+    <string name="recheckcardno">Recheck the card No.</string>
+    <string name="refundsucc">Refund success</string>
+    <string name="reinputpass">Re-input password</string>
+    <string name="reprint">Re-print last receipt</string>
+    <string name="reprint1">Re-print</string>
+    <string name="reprintsucc">Re-print success</string>
+    <string name="rfaiddownload">RF AID download</string>
+    <string name="rfaidparastorefail">RF AID parameter store failure:</string>
+    <string name="rfaidstorefail">RF AID store failure:</string>
+    <string name="scantimeout">Scan timeout</string>
+    <string name="send">Send</string>
+    <string name="senddatafail">Send data failure</string>
+    <string name="sequenceno">Sequence No.</string>
+    <string name="setipandport">Set ip and port</string>
+    <string name="settings">Settings</string>
+    <string name="sign">Sign in</string>
+    <string name="signyourname">Signature</string>
+    <string name="slip">Slip card</string>
+    <string name="slipinsertswing">Tap/Swipe/Insert card</string>
+    <string name="ssldownsucc">SSL download success</string>
+    <string name="ssldwon">SSL download</string>
+    <string name="stroe">Store</string>
+    <string name="swing">Tap card</string>
+    <string name="swipefailreswipe">Swipe card failure, re-swipe</string>
+    <string name="swipefailretry">Swipe card failure,retry</string>
+    <string name="tek_download">TEK download</string>
+    <string name="tekdownfail">TEK download failure</string>
+    <string name="tekdwonsucc">TEK download success</string>
+    <string name="terminalno">Terminal No.</string>
+    <string name="terminalset">Terminal settings</string>
+    <string name="terserconnfail">Termianl service conn failure</string>
+    <string name="timeoutoverzero">Timeout num must over 0</string>
+    <string name="tradefail">Trade failure</string>
+    <string name="usercancel">User cancel</string>
+    <string name="useyourcard">Use your card</string>
+    <string name="wait">Processing...</string>
+    <string name="wrong">Wrong</string>
+    <string name="wrongPin">Wrong PIN</string>
+    <!--<string name="percent_sign">&#x0025;</string>-->
+    <string name="percent_sign">UGX</string>
+    <string name="hello_first_fragment">Hello Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+   <string name="powered_by">Powered By</string>
+
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_key_terminal_info">terminal_info</string>
+    <string name="pref_key_security_keys">security_keys</string>
+    <string name="pref_key_limit">limit</string>
+    <string name="pref_key_currency">currencyHelper</string>
+    <string name="pref_key_first_month_day">first_month_day</string>
+    <string name="pref_key_change_user_password">change_user_password</string>
+    <string name="pref_key_app_version">app_version</string>
+    <string name="pref_key_logout">logout</string>
+    <string name="pref_resync">resync_billers</string>
+</resources>

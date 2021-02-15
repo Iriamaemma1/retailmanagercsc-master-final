@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/topText"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/guideText_card"
+            android:layout_marginTop="40dp"
+            style="@style/reportContentText"
+            android:text="@string/enter_details"
+            android:layout_gravity="center"
+            android:textSize="17sp"
+            android:textColor="#6c6d70"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/inputAmountLayout"
+        android:layout_below="@+id/topText"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/l_prdName">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_prdName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:enabled="false"
+                android:textColorHint="#7a7e80"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                android:backgroundTint="@color/transparent"
+                android:hint="Product Name"
+                android:maxLength="18"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/l_current_stock">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_current_stock"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:enabled="false"
+                android:textColorHint="#7a7e80"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                android:backgroundTint="@color/transparent"
+                android:hint="Current Stock"
+                android:maxLength="18"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/l_stock">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_stock"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:textColorHint="#7a7e80"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                android:backgroundTint="@color/transparent"
+                android:hint="Quanty"
+                android:maxLength="18"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/l__total_stock"
+            android:visibility="visible">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_total_stock"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:textColorHint="#7a7e80"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                android:enabled="false"
+                android:backgroundTint="@color/transparent"
+                android:hint="Total Stock"
+                android:maxLength="18"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/confirm_amount"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:textColorHint="#fff"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimaryDark"
+                android:text="Confirm"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout >
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/spinner_dialog_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/spinner_dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="PLEASE INSERT CARD"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@color/colorPrimaryDark"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cardReadFailure"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="4dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:elevation="10dp"
+            app:cardBackgroundColor="@color/whiteCardColor"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+
+
+                <TextView
+                    android:id="@+id/card_status"
+                    style="@style/homeHeading"
+                    android:textColor="@color/blackTextColor"
+                    android:textSize="20dp"
+                    android:text="TRANSACTION FAILED"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    style="@style/learnhubTitleText"
+                    android:textStyle="normal"
+                    android:id="@+id/card_read_msg"
+                    android:layout_marginTop="15dp"
+                    android:textSize="12dp"
+                    android:text=""/>
+
+                <Button
+                    android:id="@+id/confirm_card_read"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:text="OK"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/whiteCardColor"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/transaction_resp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="@color/transparent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="4dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:elevation="10dp"
+            app:cardBackgroundColor="@color/whiteCardColor"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+
+
+                <TextView
+                    android:id="@+id/tran_status"
+                    style="@style/homeHeading"
+                    android:textColor="@color/blackTextColor"
+                    android:textSize="20dp"
+                    android:text=""
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    style="@style/learnhubTitleText"
+                    android:textStyle="normal"
+                    android:id="@+id/tran_status_desc"
+                    android:layout_marginTop="15dp"
+                    android:textSize="12dp"
+                    android:text=""/>
+
+                <Button
+                    android:id="@+id/confirm_print"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:text="OK"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/whiteCardColor"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</RelativeLayout>
