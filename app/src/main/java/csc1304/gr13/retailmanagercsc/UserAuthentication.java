@@ -224,7 +224,7 @@ public class UserAuthentication extends AppCompatActivity {
                         user.createNewUser(new UserDatabaseModel(staffName,staffEmail,"*****",staffContact,staffPrimaryId));
 
                     }else{
-                       // user.deleteUser(staffPrimaryId);
+                        // user.deleteUser(staffPrimaryId);
                         Log.e("User","User exists exists ...");
                     }
 

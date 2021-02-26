@@ -17,6 +17,10 @@ public class CurrentLogginSession {
 
     private static String staffContact = null;
 
+    private static String staffAge = null;
+
+    private static String staffGender = null;
+
     private static String institutionId = null;
 
     private static String institutionName = null;
@@ -63,6 +67,21 @@ public class CurrentLogginSession {
 
     public static void setStaffContact(String staffContact) {
         CurrentLogginSession.staffContact = staffContact;
+    }
+
+    public static String getStaffAge() {
+        return staffAge;
+    }
+
+    public static void setStaffAge(String staffAge) {
+        CurrentLogginSession.staffAge = staffAge;
+    }
+    public static String getStaffGender() {
+        return staffGender;
+    }
+
+    public static void setStaffGender(String staffGender) {
+        CurrentLogginSession.staffGender = staffGender;
     }
 
     public static String getInstitutionId() {

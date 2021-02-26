@@ -5,8 +5,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
- haj,sjqZS˙œ∑,fdj\yqwht d\zsqw∂ˆˆ¥´´©
- haj,sjqZS˙œ∑,fdj\yqwht d\zsqw∂ˆˆ¥´´©
+    haj,sjqZS˙œ∑,fdj\yqwht d\zsqw∂ˆˆ¥´´©
+    haj,sjqZS˙œ∑,fdj\yqwht d\zsqw∂ˆˆ¥´´©
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="select_product">Select Product</string>
@@ -44,7 +44,6 @@
     <string name="Stock">Stock</string>
     <string name="sells">Sells</string>
     <string name="customers">Customers</string>
-
 
 
     <!-- Shrine backdrop menu labels -->
@@ -96,7 +95,7 @@
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Twezimbe"</string>
-   <string name="retail_manager">"Retail Manager"</string>
+    <string name="retail_manager">"Retail Manager"</string>
     <string name="app_name_twezimbe">"Twezimbe POS"</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password required</string>
@@ -152,9 +151,6 @@
     <string name="prd_var">Product Variation</string>
 
 
-
-
-
     <!-- Quick Teller -->
     <string name="title_activity_serial_port">SerialPortActivity</string>
     <string name="title_COM_USB_UART">USB UART</string>
@@ -175,7 +171,7 @@
     <string name="mybalance">Refresh Balance</string>
     <string name="resyncbillers">Update Billers</string>
     <string name="updateteskey">Update TES Keys</string>
-    <string name="logout">Logout</string>
+    <string name="log_out">Log Out</string>
     <string name="fees_taxes">Fees &amp; Taxes</string>
 
     <string name="passwordForgotten">
@@ -388,7 +384,33 @@
     <string name="previous">Previous</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
-   <string name="powered_by">Powered By</string>
+    <string name="powered_by">Powered By</string>
 
+
+    <string name="app_version">1.0.1</string>
+    <string name="version_unknown">Unknown Version</string>
+    <string name="start">Start</string>
+    <string name="skip">Skip</string>
+    <string name="contact">Contact</string>
+    <string name="version_number">1.0.1</string>
+    <string name="date_updated">10 - Feb - 2021</string>
+    <string name="short_text">Recess term project Retail Manager / POS with MTN MoMo Pay developed by CSC 1304 group 13</string>
+    <string name="action_share_application">Share Application</string>
+
+    <color name="cyan_100">#b2ebf2</color>
+    <color name="cyan_200">#80deea</color>
+    <color name="cyan_300">#4dd0e1</color>
+    <color name="cyan_400">#26c6da</color>
+    <color name="cyan_50">#e0f7fa</color>
+    <color name="cyan_500">#00bcd4</color>
+    <color name="cyan_600">#00acc1</color>
+    <color name="cyan_700">#0097a7</color>
+    <color name="cyan_800">#00838f</color>
+    <color name="cyan_800_overlay">#e600838f</color>
+    <color name="cyan_900">#006064</color>
+    <color name="cyan_A100">#84ffff</color>
+    <color name="cyan_A200">#18ffff</color>
+    <color name="cyan_A400">#00e5ff</color>
+    <color name="cyan_A700">#00b8d4</color>
 
 </resources>

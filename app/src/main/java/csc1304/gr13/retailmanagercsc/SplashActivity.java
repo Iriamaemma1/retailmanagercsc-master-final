@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import csc1304.gr13.retailmanagercsc.activity.MoMoPayment;
 
 
 public class SplashActivity extends AppCompatActivity {
@@ -21,7 +21,9 @@ public class SplashActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(SplashActivity.this,UserAuthentication.class);
+
+                //Splash >> UserAuthentication
+                Intent intent=new Intent(SplashActivity.this, UserAuthentication.class);
                 startActivity(intent);
                 finish();
             }

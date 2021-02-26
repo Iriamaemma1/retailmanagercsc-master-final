@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_add_user"
+        android:title="add_user"
+        android:icon="@drawable/customer_new"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_options"
+        android:title="Options"
+        android:icon="@drawable/icon_options"
+        app:showAsAction="ifRoom"/>
+</menu>

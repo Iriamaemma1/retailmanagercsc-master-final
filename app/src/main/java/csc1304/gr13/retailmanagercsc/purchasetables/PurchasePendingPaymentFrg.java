@@ -59,7 +59,7 @@ public class PurchasePendingPaymentFrg extends Fragment {
 
         purchaseBinding = DataBindingUtil.inflate(inflater,R.layout.fragment_purchase, container, false);
         view = purchaseBinding.getRoot();
-        purchaseModel = new PurchaseModel();
+        purchaseModel = new PurchaseModel("1", "1", "2018-08-26 00:05:30.729", "50", "1000", "50000", "30000", "20000", "Need to payment about 20,000 UGX", "1", "", "2018-08-26 00:05:30.729");
         updateDatabase = new UpdateDatabase(getActivity());
 
         purchase = new Purchase(getActivity());

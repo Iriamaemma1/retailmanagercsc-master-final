@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="csc1304.gr13.retailmanagercsc">
+
     <uses-feature
         android:name="android.hardware.bluetooth"
         android:required="false" />
@@ -13,15 +14,17 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <application
 
+    <application
         android:allowBackup="true"
         android:icon="@drawable/retail"
         android:label="@string/app_name"
         android:roundIcon="@drawable/retail"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".activity.MoMoPayment"></activity>
+        <activity android:name=".TerminalManagerActivity" />
+        <activity android:name=".config.UserRegistration" />
         <activity
             android:name=".SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -32,72 +35,56 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".UserAuthentication"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme">
-        </activity>
-
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".p25.MainActivityPrinter"></activity>
-
+            android:theme="@style/AppTheme" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".p25.MainActivityPrinter" />
         <activity
             android:name=".stocktables.addstockitems.frgs.AddStockActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"
-            />
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".AboutApp"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
         <activity
             android:name=".stocktables.addstockitems.frgs.RemoveStockActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"
-            />
-
+            android:screenOrientation="nosensor" />
         <activity
             android:name=".stocktables.addstockitems.AddProductActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"
-            />
+            android:screenOrientation="nosensor" />
         <activity
             android:name=".stocktables.addstockitems.AddCategoryActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"
-            />
-
+            android:screenOrientation="nosensor" />
         <activity
             android:name=".suppliertables.frgs.AddSupplierActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"
-            />
+            android:screenOrientation="nosensor" />
         <activity
             android:name=".customertables.addcustomer.AddCustomerActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"
-            />
-
+            android:screenOrientation="nosensor" />
         <activity
             android:name=".purchasetables.addpurchase.AddPurchaseActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"
-            />
-
+            android:screenOrientation="nosensor" />
         <activity
             android:name=".stocktables.addstockitems.AddVariationActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"
-            />
-
-
-
-        <activity android:name=".history.edit_entry.TransactionDetailsActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".history.edit_entry.TransactionDetailsActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"
-            />
-
-        <activity android:name=".options.OptionsActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".options.OptionsActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"
-            />
+            android:screenOrientation="nosensor" />
     </application>
 
 </manifest>

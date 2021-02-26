@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<attr name="mrl_rippleAlpha" format="float">
+</attr>
+<attr name="mrl_rippleBackground" format="color">
+</attr>
+<attr name="mrl_rippleColor" format="color">
+</attr>
+<attr name="mrl_rippleDelayClick" format="boolean">
+</attr>
+<attr name="mrl_rippleDimension" format="dimension">
+</attr>
+<attr name="mrl_rippleDuration" format="integer">
+</attr>
+<attr name="mrl_rippleFadeDuration" format="integer">
+</attr>
+<attr name="mrl_rippleHover" format="boolean">
+</attr>
+<attr name="mrl_rippleInAdapter" format="boolean">
+</attr>
+<attr name="mrl_rippleOverlay" format="boolean">
+</attr>
+<attr name="mrl_ripplePersistent" format="boolean">
+</attr>
+<attr name="mrl_rippleRoundedCorners" format="dimension">
+</attr>
+
+</resources>

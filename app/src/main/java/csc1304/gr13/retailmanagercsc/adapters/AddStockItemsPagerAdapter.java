@@ -5,7 +5,6 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import csc1304.gr13.retailmanagercsc.stocktables.addstockitems.AddCategoryDBfrg;
 import csc1304.gr13.retailmanagercsc.stocktables.addstockitems.AddProductDBfrg;
-
 /**
  * Created by CS1304 on 8/02/2021.
  */

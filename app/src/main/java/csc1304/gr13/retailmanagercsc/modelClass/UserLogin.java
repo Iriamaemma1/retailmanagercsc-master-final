@@ -48,21 +48,27 @@ public class UserLogin {
         @SerializedName("user_id")
         @Expose
         private String userId;
+
         @SerializedName("full_name")
         @Expose
         private String fullName;
+
         @SerializedName("phone_no")
         @Expose
         private String phoneNo;
+
         @SerializedName("username")
         @Expose
         private String username;
+
         @SerializedName("email")
         @Expose
         private String email;
+
         @SerializedName("position_id")
         @Expose
         private String positionId;
+
         @SerializedName("password")
         @Expose
         private String password;

@@ -1,19 +1,5 @@
 package csc1304.gr13.retailmanagercsc;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.IntentFilter;
-import android.os.Build;
-import android.os.Bundle;
-import android.os.Handler;
-import android.view.Gravity;
-import android.view.View;
-import android.widget.ImageButton;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
-
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AlertDialog;
@@ -24,8 +10,6 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
-
-
 import csc1304.gr13.retailmanagercsc.fragments.BusinessProfileFragment;
 import csc1304.gr13.retailmanagercsc.fragments.CustomerPagerFragment;
 import csc1304.gr13.retailmanagercsc.fragments.DueDetailsFragment;
@@ -41,14 +25,22 @@ import csc1304.gr13.retailmanagercsc.fragments.UpdatingStatusFragment;
 import csc1304.gr13.retailmanagercsc.fragments.UserProfileFragment;
 import csc1304.gr13.retailmanagercsc.history.HistoryFragment;
 import csc1304.gr13.retailmanagercsc.interfaces.DueLvInterface;
-import csc1304.gr13.retailmanagercsc.options.OptionsFragment;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.os.Build;
+import android.os.Bundle;
+import android.os.Handler;
+import android.view.Gravity;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
-/**
- * Created by CSC 1304 group 13 on 8/02/2021.
- */
-
-public class MainActivity extends AppCompatActivity implements View.OnClickListener, DueLvInterface {
+public class TerminalManagerActivity extends AppCompatActivity implements View.OnClickListener, DueLvInterface {
 
     public static final String TAG = "csc1304_13_retail";
     private int updateComplete = 0;
@@ -75,20 +67,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Handler threadHandler;
 
     @RequiresApi(api = Build.VERSION_CODES.O)
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        threadHandler = new Handler(getMainLooper());
-
-
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_terminal_manager);
         //Toolbar toolbar = findViewById(R.id.toolbar);
         Toolbar toolbar = findViewById(R.id.app_bar);
 
         setSupportActionBar(toolbar);
 
-       DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
@@ -142,7 +131,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         navAboutRl.setOnClickListener(this);
         navLogoutRl.setOnClickListener(this);
 
-       // updateBtn.setOnClickListener(this);
+        // updateBtn.setOnClickListener(this);
 
         fragment = new StockProductsFragment();
         //fragment = new HomeFragment();
@@ -151,7 +140,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         threadHandler.post(new Runnable() {
             @Override
             public void run() {
-                updateDatabase = new UpdateDatabase(MainActivity.this);
+                updateDatabase = new UpdateDatabase(TerminalManagerActivity.this);
             }
         });
 
@@ -213,11 +202,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 closeNavBar();
                 break;
             case R.id.navBusinessProfile:
-                fragment = new BusinessProfileFragment();
+                //fragment = new BusinessProfileFragment();
                 closeNavBar();
                 break;
             case R.id.navAbout:
-                Intent intent = new Intent(MainActivity.this,AboutApp.class);
+                Intent intent = new Intent(TerminalManagerActivity.this,AboutApp.class);
                 startActivity(intent);
                 finish();
                 break;
@@ -289,7 +278,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             dialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    Intent intent = new Intent(MainActivity.this,UserAuthentication.class);
+                    Intent intent = new Intent(TerminalManagerActivity.this,UserAuthentication.class);
                     startActivity(intent);
                     finish();
                 }

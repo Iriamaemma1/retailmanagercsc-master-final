@@ -1,4 +1,4 @@
-package csc1304.gr13.retailmanagercsc.options;
+package csc1304.gr13.retailmanagercsc.config;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -12,24 +12,22 @@ import android.view.Gravity;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AlertDialog;
-
-import csc1304.gr13.retailmanagercsc.R;
-import csc1304.gr13.retailmanagercsc.UserAuthentication;
-import csc1304.gr13.retailmanagercsc.clienttransaction.db.DbHandler;
-import csc1304.gr13.retailmanagercsc.clienttransaction.db.Terminal;
-import csc1304.gr13.retailmanagercsc.config.UserResetPasswordActivity;
-import csc1304.gr13.retailmanagercsc.history.models.User;
-
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AlertDialog;
+import csc1304.gr13.retailmanagercsc.R;
+import csc1304.gr13.retailmanagercsc.UserAuthentication;
+import csc1304.gr13.retailmanagercsc.clienttransaction.db.DbHandler;
+import csc1304.gr13.retailmanagercsc.clienttransaction.db.Terminal;
+import csc1304.gr13.retailmanagercsc.history.models.User;
+
 /**
  * Created by CS1304 on 8/02/2021.
  */
-public class OptionsFragment extends PreferenceFragment {
+public class UserResetPasswordFragment extends PreferenceFragment {
     User user;
     ArrayList<Preference> preferences = new ArrayList<>();
     private DbHandler db;
@@ -218,9 +216,8 @@ public class OptionsFragment extends PreferenceFragment {
     }
 
     private void changePassWord() {
+      //  startActivity(new Intent(getActivity(), ChangePasswordActivity.class));
 
-        startActivity(new Intent(getActivity(), UserResetPasswordActivity.class));
-        getActivity().finish();
     }
 
     @RequiresApi(api = Build.VERSION_CODES.O)

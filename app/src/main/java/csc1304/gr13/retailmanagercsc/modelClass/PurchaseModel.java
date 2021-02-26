@@ -22,7 +22,7 @@ public class PurchaseModel {
     public  String created_at;
 
 
-    public PurchaseModel() {
+    public PurchaseModel(String s, String s1, String s2, String s3, String s4, String s5, String s6, String s7, String s8, String s9, String s10, String s11) {
     }
 
     public PurchaseModel(Integer id,String product_id,String product_variation_id,String supplier_id, String purchase_date, String purchase_product_quantity, String purchase_product_price, String purchase_amount, String purchase_payment, String purchase_balance, String purchase_description, String created_by_id, String updated_by_id, String created_at) {
@@ -57,6 +57,9 @@ public class PurchaseModel {
         this.created_by_id = created_by_id;
         this.updated_by_id = updated_by_id;
         this.created_at = created_at;
+    }
+
+    public PurchaseModel(String lapTop, String product_id, String annet_kisaakye, String supplier_id, String purchase_date, String purchase_product_quantity, String purchase_product_price, String purchase_amount, String purchase_payment, String purchase_balance, String purchase_description, String created_by_kamal, String updated_by_id, String created_at) {
     }
 
     public Integer getId() {
